@@ -4,14 +4,15 @@
 Shopee - Price Match Guarantee  
 https://www.kaggle.com/competitions/shopee-product-matching
 
+## Dataset
+Dataset download here
+https://www.kaggle.com/competitions/shopee-product-matching/data
+then either its stored inside kaggle folder or save it locally inside this folder
+
 ## Problem
 Given ~34,250 product listings each with an image + text title,
 identify which listings belong to the same product group.
 Metric: Mean F1 score.
-
-## Baseline
-Silver Medal solution by mfalfafa:
-https://github.com/mfalfafa/shopee-price-match-guarantee
 
 ## Experiments
 - Exp A: Image encoder ablation (EfficientNet B0 / B3 / B5)
@@ -20,7 +21,7 @@ https://github.com/mfalfafa/shopee-price-match-guarantee
 
 ## How to Run
 pip install -r requirements.txt
-python src/evaluate.py
+python src/utils.py
 
 ## Results
-See results/ablation_results.csv
+See results/ folder
