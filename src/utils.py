@@ -38,7 +38,8 @@ class CFG:
     ARC_S           = 30.0
     ARC_M           = 0.5
 
-    TEXT_MODEL      = 'paraphrase-xlm-r-multilingual-v1'
+    # TEXT_MODEL      = 'paraphrase-xlm-r-multilingual-v1'
+    TEXT_MODEL = 'paraphrase-multilingual-MiniLM-L12-v2'
 
 
 # DATASET ===
