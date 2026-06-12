@@ -19,9 +19,17 @@ Metric: Mean F1 score.
 - Exp B: Text encoder ablation (TF-IDF / MiniLM / XLM-R)
 - Exp C: ArcFace margin ablation (m = 0.3 / 0.5 / 0.7)
 
-## How to Run
+## Run First Time
+python --version
+python -m venv venv
 pip install -r requirements.txt
+
+## Run
 python src/utils.py
+
+## Run jupyter notebook
+venv\Scripts\activate
+jupyter notebook
 
 ## Results
 See results/ folder
